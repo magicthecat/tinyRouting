@@ -1,0 +1,26 @@
+{
+  "name": "tinyrouting-routinghandler",
+  "version": "1.0.0",
+  "description": "A minimalistic javascript routing listener with callback features.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magicthecat/tinyRouting.git"
+  },
+  "keywords": [
+    "routing",
+    "router",
+    "javascript",
+    "callback",
+    "minimal"
+  ],
+  "author": "MagicTheCat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/magicthecat/tinyRouting/issues"
+  },
+  "homepage": "https://github.com/magicthecat/tinyRouting#readme"
+}
