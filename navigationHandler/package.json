@@ -1,6 +1,6 @@
 {
   "name": "tinyrouting-navigationhandler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tiny function for updating url routing",
   "main": "index.js",
   "scripts": {
