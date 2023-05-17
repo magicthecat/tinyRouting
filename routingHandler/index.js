@@ -5,8 +5,19 @@ export default function routingHandler(callback) {
         }
 
         const handleRoutingCallback = () => {
+            const parseQueryParameters = (queryString) => {
+                const queryParams = {};
+                const searchParams = new URLSearchParams(queryString);
+
+                for (let [key, value] of searchParams.entries()) {
+                    queryParams[key] = value;
+                }
+
+                return queryParams;
+            };
             const currentRoute = window.location.pathname;
-            callback(currentRoute);
+            const queryParams = parseQueryParameters(window.location.search);
+            callback(currentRoute, queryParams);
         };
 
         window.addEventListener("popstate", handleRoutingCallback);
